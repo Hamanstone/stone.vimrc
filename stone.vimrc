@@ -438,6 +438,7 @@ endfunction
 execute pathogen#infect()
 
 set t_Co=256
+set nu #show line number
 
 let g:lightline = {
       \ 'colorscheme': 'default',
@@ -450,3 +451,5 @@ let g:lightline = {
       \ },
       \ }
 
+set cursorline
+highlight CursorLine cterm=NONE ctermbg=darkblue ctermfg=white
