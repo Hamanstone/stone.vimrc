@@ -19,3 +19,7 @@ git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
 ```
 
 [vim-lightline](https://github.com/itchyny/lightline.vim)
+
+
+##### 4. apply indentLine
+[vim-indentLine](https://github.com/Yggdroot/indentLine)
